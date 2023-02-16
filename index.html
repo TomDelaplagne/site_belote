@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="fr">
+<!--Site du club belote crée par Tom Delaplagne (delaplagnetom@gmail.com) Président du club durand le mandat 2021/2022
+	Le projet du site est entierement codé à la main 
+	Nombre de ligne de code ~2500	incluant du HTML5, CSS3, Javascript, PHP et C-->
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Club belote | Telecom Physique Strasbourg TPS</title>
+	<meta name="description" content="Le club de belote et de tarot de TPS (Telecom Physique Strasbourg) est fier de vous presenter son site où vous trouverez toutes les informations quand au club et aux evenements qu'il organise !">
+	<link rel="stylesheet" href="style.css"/>
+	<link rel="icon" type="image/png" sizes="16x16" href="belote_mini.png" />
+</head>
+<body>
+	<div class="loader" id="loader"> 
+		<span>↓</span>
+		<span style="--delay: 0.1s">↓</span>
+		<span style="--delay: 0.3s">↓</span>
+		<span style="--delay: 0.4s">↓</span>
+		<span style="--delay: 0.5s">↓</span>
+	</div>
+	<main class="parent">
+		<div class="titre"> 
+			<h1><strong>CLUB BELOTE & TAROT</strong></h1>
+			<h2><strong>TELECOM PHYSIQUE STRASBOURG</strong></h4>
+		</div>
+		<nav class="navbar" >
+			<li class="onglet active" data-anim="1">HOME</li>
+			<li class="onglet" data-anim="2">EVENEMENTS</li>
+			<li class="onglet" data-anim="3">CLASSEMENT ELO</li>
+		</nav>
+		<div class="contact"><p>NOUS CONTACTER</p></div>
+		<div class="loader" id="loaderimg"> 
+			<span>↓</span>
+			<span style="--delay: 0.1s">↓</span>
+			<span style="--delay: 0.3s">↓</span>
+			<span style="--delay: 0.4s">↓</span>
+			<span style="--delay: 0.5s">↓</span>
+		</div>
+		<div class="image" id="image"> 
+			<div class="leftArrow invisible"></div>
+			<div class="rightArrow invisible"></div>
+		</div>
+		<div class="text"> 
+			<div class="contenu activeContenu" data-anim="1">
+				<div class="textEvenement">
+					<h1>Description</h1>
+					<hr/>
+					<p>Comme squid game, après l'immense succès des nombreux <span class="bold"">t</span class="bold"">ourno<span class="bold"">i</span class="bold"">s belotes, le club belote, qu'on ne présente plus, a su s'imposer parmis les clubs phares de l'école. <span class="bold"">F</span class="bold"">ort de s<span class="bold"">a</span class="bold""> popular<span class="bold"">i</span class="bold"">té et de so<span class="bold"">n</span class="bold""> présid<span class="bold"">e</span class="bold"">nt charismatique, nous vous invitons à rejoindre nos rangs pour jouer à ce jeu centenaire et ludique promettant un fun intarissable.</p>
+				</div>
+			</div>
+			<div class="contenu" data-anim="2">
+				<div class="evenementContainer">
+					<nav class="navbarEvenement">
+						<li class="evenement active" data-minianim="1">COUINCHE</li>
+						<li class="evenement" data-minianim="2">TAROT</li>
+						<li class="evenement" data-minianim="3">DECOUVERTE</li>
+					</nav>
+					<div class="text">
+						<div class="Evenement activeEvenement" data-minianim="1">
+							<h1>Tounoi de couinche à 8 cartes</h1>
+							<hr/>
+							<h2>17 septembre 2022 </h2>
+							<p>Pour les inscriptions mettez-vous sur le gdoc <a href="https://docs.google.com/spreadsheets/d/1SegGEFDbafchcTah7mudb3YkyH5EczV2iqkjR6X0nog/edit?usp=drivesdk" target="blank_">là</a> et pas de blabla</p>
+							<p>Ha non j'ai failli oublier grosse récompense sa mère à base de bravo, de gloire etou etou<br/>(y a pas de thune c la rue)<br/>Mais au final est-ce que la vraie récompense c'est pas les amitiés et les épreuves qu'on a traversées ?<br/>Moi j'pense que oui mais qu'est-ce que j'y connais finalement??<br/>A méditer...</p>
+							<p></p>
+						</div>
+						<div class="Evenement" data-minianim="2">
+							<h1>Tournoi de tarot [ANNULÉ]</h1>
+							<hr/>
+							<h2>mercredi 11 mai 2022 17h30</h2>
+							<p>Si la belote a été créée pour quatre prépuberts qui s'ennuient au kems,<br/> le tarot, lui, s'affirme en taulier du jeu de carte et bâtit sa réputation sur plusieurs siècles.<br/>
+
+								<p>On vous propose donc de venir participer à un tournoi de tarot le mercredi 11 mai à partir de 17h30.<br/>
+								
+								Je vous invite à vous inscrire <a href="https://docs.google.com/spreadsheets/d/136Cjak2Y4QSMtMc-QZXnU-4V0vmvLR0p3br2wM3M_44/edit?usp=drivesdk"  target="blank_">ici</a> pour toucher l'extraordinaire de ce jeu.<br/></p>
+							</p>
+						</div>
+						<div class="Evenement" data-minianim="3">
+							<h1>Afterwork découverte de la belote</h1>
+							<hr/>
+							<h2>27 septembre 2022</h2>
+							<p>Du fun, du suspens, de la stratégie et des mamies en chaleurs <br/> préparez vous pour une expérience qui bouleversera votre existence tout entière !!! <br/>
+
+								Rendez-vous au fouaille pour une petite après-midi tranquillou <br/> à base de rebondissements, de capots, de couinches, de longues et d'appels en tous genre
+								</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contenu" data-anim="3" id="Elo">
+				<svg id="infoIcon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+				width="24" height="24"
+				viewBox="0 0 24 24"
+				style=" fill:#011c50;">    <path d="M 12 2 C 6.4889971 2 2 6.4889971 2 12 C 2 17.511003 6.4889971 22 12 22 C 17.511003 22 22 17.511003 22 12 C 22 6.4889971 17.511003 2 12 2 z M 12 4 C 16.430123 4 20 7.5698774 20 12 C 20 16.430123 16.430123 20 12 20 C 7.5698774 20 4 16.430123 4 12 C 4 7.5698774 7.5698774 4 12 4 z M 11 7 L 11 9 L 13 9 L 13 7 L 11 7 z M 11 11 L 11 17 L 13 17 L 13 11 L 11 11 z"></path></svg>
+				<div class="infopopup">
+					<h4>Qu'est-ce que l'ELO ?</h4>
+					<p>Lipsum dolor sit amet consectetur adipisicing elit. Quasi eius incidunt ipsa nostrum ad cum voluptate! Doloribus ipsum reprehenderit nesciunt ad qui facilis, commodi non dolores reiciendis consectetur alias deserunt!</p>
+				</div>
+				
+				<div class="ecranPetit">
+					<h6>Le classement d'elo n'est pas adapté pour les petits ecrans :(<br/>
+					Ouvrez le site sur un ecran plus grand svp</h6>
+					<p>D'ailleur, le site est bien plus beau sur ordinateur alors n'hesitez plus ;)</p>
+					<button type="button" id="Elobtn">Voir quand même</button>
+				</div>
+				<h1 id="leaderboard">LEADERBOARD</h1>
+				
+				<div class="leaderboardContainer scroller">
+
+				</div>
+			</div>
+		</div>
+	</main>
+	<div class="popupinactive" id="popup">
+		<div class="popupcontainer">
+			<button class="btnclosepopup"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+				width="24" height="24"
+				viewBox="0 0 24 24"
+				style=" fill:#011c50;"><path d="M 4.7070312 3.2929688 L 3.2929688 4.7070312 L 10.585938 12 L 3.2929688 19.292969 L 4.7070312 20.707031 L 12 13.414062 L 19.292969 20.707031 L 20.707031 19.292969 L 13.414062 12 L 20.707031 4.7070312 L 19.292969 3.2929688 L 12 10.585938 L 4.7070312 3.2929688 z"></path></svg></button>
+			<form class="commentaire">
+				<p class="title" id="commentaireTitle">Commentaire</p>
+				<div class="form__group field">
+					<input type="input" class="form__field" placeholder="Nom" name="name" id='name' required />
+					<label for="name" class="form__label">Nom</label>
+				</div>
+				<div class="form__group field">
+					<input type="input" class="form__field" placeholder="Adresse Mail" name="Adresse Mail" id='Adresse Mail' required />
+					<label for="Adresse Mail" class="form__label">Adresse Mail</label>
+				</div>
+				<div class="form__group field">
+					<input type="input" class="form__field" placeholder="Commentaire" name="Commentaire" id='Commentaire' required />
+					<label for="Commentaire" class="form__label">Commentaire</label>
+				</div>
+				<button type="button" id="commentaireBouton">Envoyer</button>
+			</form>
+			<div class="dragAndDrop" method="POST">
+				<p class="title">Photo</p>
+				<input type="file" multiple name="fileupload" id="dragAndDrop">
+				<p id="dragAndDroptext">Déposez vos photos ici !!</p>
+				<button id="dragAndDropButton" onclick="uploadFile()">Envoyer</button>
+			</div>
+			<div class="photocontainer">
+				<div class="box" data-photo="1">
+					<img src="Philemon.png">
+					<span class="Nom" data-photo="1">Philémon</span>
+					<p class="label inactive" data-photo="1">Vp - Tas</p>
+					<p class="label inactive mini" data-photo="1">Ce nom suffit à en faire frissoner qlq uns<br/>Garre à vous <br/>car il garde tjrs "l'etique du tarot" sur lui </p>
+				</div>
+				<div class="box" data-photo="2">
+					<img src="Charlotte.jpeg">
+					<span class="Nom" data-photo="2">Charlotte</span>
+					<p class="label inactive" data-photo="2">Tresorière</p>
+					<p class="label inactive mini" data-photo="2">Description</p>
+				</div>
+				<div class="box" data-photo="3">
+					<img src="Tom.png">
+					<span class="Nom" data-photo="3">Tom</span>
+					<p class="label inactive" data-photo="3">Président</p>
+					<p class="label inactive mini" data-photo="3">Beaucoup disent de lui qu'il est charismatique...<br/>Cela reste à verifier...</p>
+				</div>
+				<div class="box" data-photo="4">
+					<img src="Raph.png">
+					<span class="Nom" data-photo="4">Raphael</span>
+					<p class="label inactive" data-photo="4">Secrétaire</p>
+					<p class="label inactive mini" data-photo="4">Grand gagnant du tournoi de meme du Neurchi<br/>Ne le laissez pas tomber sur un de vos jeux...<br/>Sinon c'est "hop en gardav"</p>
+				</div>
+				<div class="box" data-photo="5">
+					<img src="Tifaine.jpg">
+					<span class="Nom" data-photo="5">Tifaine</span>
+					<p class="label inactive" data-photo="5">Vp - Rot</p>
+					<p class="label inactive mini" data-photo="5">Ex-championne de horseball à la retraite.<br/>Reconvertie en joueuse de tarot, <br/>elle mene le petit au bout à tous les coups.</p>
+				</div>
+			</div>
+			<div class="commentaireContainer ">
+				<svg class="refresh" style="display: none;" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+width="30" height="30"
+viewBox="0 0 30 30"
+style=" fill:#011c50;"><path d="M 15 3 C 12.031398 3 9.3028202 4.0834384 7.2070312 5.875 A 1.0001 1.0001 0 1 0 8.5058594 7.3945312 C 10.25407 5.9000929 12.516602 5 15 5 C 20.19656 5 24.450989 8.9379267 24.951172 14 L 22 14 L 26 20 L 30 14 L 26.949219 14 C 26.437925 7.8516588 21.277839 3 15 3 z M 4 10 L 0 16 L 3.0507812 16 C 3.562075 22.148341 8.7221607 27 15 27 C 17.968602 27 20.69718 25.916562 22.792969 24.125 A 1.0001 1.0001 0 1 0 21.494141 22.605469 C 19.74593 24.099907 17.483398 25 15 25 C 9.80344 25 5.5490109 21.062074 5.0488281 16 L 8 16 L 4 10 z"></path></svg>
+				<div class="com scroller" id="com1">
+					<p class="nom a"  id="nom1">Tom</p>
+					<p class="date a" id="date1">23/07/2002</p>
+					<p class="comment a" id="comment1">Hello World !</p>
+				</div>
+				<div class="com scroller" id="com2">
+					<p class="nom b"  id="nom2">Fred</p>
+					<p class="date b" id="date2">23/07/2002</p>
+					<p class="comment b" id="comment2">J'ai adoré le tournoi de belote ! Merci encore d'organiser tout ca ca fait plaisir de voir autant de gens se retrouver autours de ce noble jeu. J'ai particulierment kiffé la vidéo c'est super drole ! Chapo au monteur ^^</p>
+				</div>
+				<div class="com scroller" id="com3">
+					<p class="nom  c" id="nom3">Kevin</p>
+					<p class="date c" id="date3">23/07/2022</p>
+					<p class="comment c" id="comment3">Nul a chier !! Mais noooon je rigole enfin. T'en fais une de ces tetes ... relax man, pete un coup, j'rigolais</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js" defer></script>	
+</body>
+<!--Je reve que dans quelques années quelqu'un tombe sur ce code et si tu est cette personne bah contacte moi mdr (delaplagnetom@gmail.com)-->
+</html>
+
+
+

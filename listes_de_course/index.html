@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste de course</title>
+    <!--<meta name="description" content="Le club de belote et de tarot de TPS (Telecom Physique Strasbourg) est fier de vous presenter son site où vous trouverez toutes les informations quand au club et aux evenements qu'il organise !">-->
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="#" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inika&family=Poppins:wght@300&display=swap');
+    </style>
+</head>
+<body>
+    <header class="head">
+        <div class="logo">
+            <h1>Listes de courses</h1>
+            <span class="credit">by Tom</span>
+        </div>
+        <navbar class="navbar">
+            <li class="S'inscrire" id="inscription">S'inscrire</li>
+            <li class="Se connecter" id="connection">Se connecter</li>
+        </navbar>
+    </header>
+
+    <div class="lefter">
+        <div class="search">
+            <input type="text" class="research" name="research" placeholder="Search"/>
+            <button class="submitresearch"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="50" height="50"
+                viewBox="0 0 50 50"><path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path></svg>
+            </button>
+        </div>
+        <ul class="listcontainer">
+            <!-- <li class="list">
+                <h1 class="nom">Nom de la liste</h1>
+                <span class="date">XX/XX/XXXX</span>
+                <button class="favbtn"><img class="heartfav" src="https://img.icons8.com/material-sharp/24/000000/like--v1.png"/></button>
+            </li>
+            <li class="list" id="list2">
+                <h1 class="nom">Nom de la liste</h1>
+                <span class="date">XX/XX/XXXX</span>
+                <button class="favbtn"><img src="https://img.icons8.com/fluency-systems-regular/48/000000/like--v1.png"/></button>
+            </li> -->
+        </ul>
+        <button class="addlist">+ liste</button>
+    </div>
+
+    <div class="center">
+        <div class="centeraddlist">
+            <span>+ liste</span>
+        </div>
+        
+        <div class="centercontainer" style="display: none">
+            <header>
+                <input class="listnom" type="text" Value="Nom de la liste" placeholder="Nom de la liste"/>
+                <span class="listdate">XX/XX/XXXX</span>
+                <div class="buttoncontainer">
+                    <button class="favbtn" id="mainfavbtn"><img src="https://img.icons8.com/fluency-systems-regular/48/000000/like--v1.png"/></button>
+                    <button class="deletelist"><img src="https://img.icons8.com/material/24/000000/filled-trash.png"/></button>
+                </div>
+                <select name="filter" class="filter" value="all">
+                    <option value="all">All</option>
+                    <option value="done">Done</option>
+                    <option value="notdone">Not done</option>
+                </select>
+            </header>
+            <div class="newelementcontainer">
+                <button class="addelement">+</button>
+                <input type="text" class="newelementtext" placeholder="Add new element" >
+            </div>
+            <ul class="elementscontainer">
+                <span class="info">
+                    right click to suppr
+                </span>
+            </ul>
+        </div>
+    </div>
+    
+    <div style="display: none" id="popup">
+        <div class="popupcontainer">
+            <div id="closebtn"><img src="https://img.icons8.com/material-outlined/24/000000/delete-sign.png"/></div>
+            <div class="connectioncontainer" style="display: none"><span>Pas de connection pour le moment désolé</span></div>
+            <div class="inscriptioncontainer" style="display: none"><span>Pas d'inscription pour le moment désolé</span></div>
+            <div class="creditcontainer" style="display: none"><span>Bravo à Tom(moi) pour ce site ca fait plaiz</span></div>
+        </div>
+    </div>
+
+
+    <script src="script.js" defer></script>	
+</body>

@@ -1,0 +1,19 @@
+18 1000
+TomD 979 5 2 1
+RaphaelG 979 5 2 2
+TifaineD 976 5 2 3
+LenaD 1000 0 0 4
+HeloiseB 1058 5 4 5
+MoezZ 1058 5 4 6
+EveL 942 5 1 7
+LauraB 1011 5 3 8
+LucileK 1011 5 3 9
+ThomasT 950 5 1 10
+MathildeD 1000 0 0 11
+MatisM 1045 5 4 12
+AintoineN 1045 5 4 13
+PaulP 1025 5 3 14
+IrisB 1025 5 3 15
+MathieuL 976 5 2 16
+MaximeP 950 5 1 17
+ClemenceB 942 5 1 18
